@@ -8,7 +8,7 @@ export default class ProductEdit extends React.Component {
   constructor() {
     super();
     this.state = {
-      product: {},
+      product: [],
     };
     this.onChange = this.onChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);

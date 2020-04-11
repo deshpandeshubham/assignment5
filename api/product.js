@@ -10,7 +10,7 @@ async function productList() {
 
 async function getProduct(_, { id }) {
   const db = getDb();
-  const product = await db.collection('products').findOne({ id });
+  const product = await db.collection('items').findOne({ id });
   return product;
 }
 
