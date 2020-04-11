@@ -1,17 +1,15 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable import/extensions */
+/* eslint linebreak-style: ["error","windows"] */
 
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Contents from './Contents.jsx';
 
 function NavBar() {
   return (
     <nav>
-      <a href="/">Home</a>
+      <NavLink exact to="/">Home</NavLink>
       {' | '}
-      <a href="/#/products">Product List</a>
-      {' | '}
-      <a href="/#/report">Report</a>
+      <NavLink to="/products">Product List</NavLink>
     </nav>
   );
 }

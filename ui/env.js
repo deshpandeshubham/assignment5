@@ -1,4 +1,4 @@
-/* eslint linebreak-style: ["error", "windows"] */
+/* eslint-disable linebreak-style */
 
 // eslint-disable-next-line no-undef
 window.ENV = {
